@@ -1,0 +1,103 @@
+body{
+    margin: 30px;
+    font-family: helvetica;
+    background-image: url(bck.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-y: hidden;
+}
+button{
+    padding: 20px;
+    font-family: helvetica;
+    font-weight: bolder;
+    background-color: rgba(16, 16, 16, 0.645);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    transition-duration: .5s;
+    margin: 15px;
+    width: 250px;
+    font-size: 20px;
+    border-width: 5px;
+    
+}
+button:hover{
+    background-color: rgba(75, 22, 16, 0.696);
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+    box-shadow: 7px 8px 7px black;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.grid_b{
+    float: left;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    transition: .5s;
+    color: rgba(255, 255, 255, 0.697);
+}   
+h1:hover{
+    text-shadow: 6px 5px 8px rgb(0, 0, 0);
+
+}
+.mata{
+    width: 750px;
+    margin-left: 150px;
+    display: flex;
+    text-align: center;
+    right: 1000px;
+}
+._button{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    position: relative;
+    top: 45%;
+}
+.eh{
+    width: 250px;
+    position: relative;
+    left: 120px;
+}
+/*Face Parts*/
+.girl{
+    position: relative;
+}
+.eyes{
+    position: relative;
+    top: -480px;
+    left: 375px;
+    width: 300px;
+}
+
+.nose{
+    position: relative;
+    top: -460px;
+    left: 170px;
+    width: 110px;
+}
+.mouth{
+    position: relative;
+    top: -390px;
+    left: -73px;
+    width: 50px;
+}
+.closeMouth{
+    width: 100px;
+}
+p{
+    position: relative;
+    font-family: century gothic;
+    top: -940px;
+    left: 900px;
+    width: 780px;
+    text-align: justify;
+    text-justify: distribute;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.524);
+    filter: blur(20%);
+    padding: 20px;
+    color: white;
+}
